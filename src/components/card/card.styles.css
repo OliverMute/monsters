@@ -1,0 +1,22 @@
+h4 {
+  color: black !important;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 30px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translalteZ(0);
+  transition: transform 0.25s ease-out;
+  width: 65%;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}

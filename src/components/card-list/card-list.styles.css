@@ -1,0 +1,13 @@
+h4 {
+  color: white;
+}
+
+.card-list {
+  width: 81vh;
+  margin: 55px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+/* 4 columns. Between each column, a 20px space */
